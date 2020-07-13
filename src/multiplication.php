@@ -6,12 +6,12 @@ namespace rkadam01\Multiplication;
  */
 class Multiplication
 {
-	public function getMultiplication() {
-		$firstElement = array_shift($argv);
-		if( false == ctype_digit(implode('',$argv))){
+	public function getMultiplication( $data ) {
+		$firstElement = array_shift($data);
+		if( false == ctype_digit(implode('',$data))){
 			return 'Please enter the valid parameters.';
 		} else {
-			return array_sum($argv);
+			return array_sum($data);
 		}
 	}
 }
