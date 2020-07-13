@@ -13,5 +13,6 @@
     "autoload": {
         "psr-4": {"rkadam01\\Multiplication\\": "src/"}
     },
+    "version": "1.0.0",
     "require": {}
 }
