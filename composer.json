@@ -1,0 +1,17 @@
+{
+    "name": "rkadam01/multiplication-program",
+    "description": "test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rkadam01",
+            "email": "rkadam01@xento.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"rkadam01\\Multiplication\\": "src/"}
+    },
+    "require": {}
+}
